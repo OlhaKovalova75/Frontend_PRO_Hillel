@@ -8,20 +8,20 @@ let asterisk = +(numberOne * numberTwo);
 let division = +(numberOne / numberTwo);
 
 if (symbol === '+') {
-    alert(sum);
+    alert(noteOne + '' + '=' + '' + sum);
     console.log(sum);
 }
 else if (symbol === '-') {
-    alert(minus);
+    alert(noteOne + '' + '=' + '' + minus);
     console.log(minus)
 }
 
 else if (symbol === '*') {
-    alert(asterisk);
+    alert(noteOne + '' + '=' + '' + asterisk);
     console.log(asterisk)
 }
 else if (symbol === '/') {
-    alert(division);
+    alert(noteOne + '' + '=' + '' + division);
     console.log(division)
 }
 else {
